@@ -1,3 +1,12 @@
 h1 {
     color: red;
 }
+
+h2 {
+    color: gray;
+    background-color: aquamarine;
+}
+
+p {
+    color: green;
+}
