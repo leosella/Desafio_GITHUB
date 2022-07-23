@@ -18,7 +18,7 @@ border-radius: 15px;
 
 
 .logo1:hover {
-    transform: scale(2);
+    transform: scale(1.5);
     transition: 2s;
 }
 
