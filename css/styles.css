@@ -14,7 +14,12 @@ border-radius: 15px;
 
 .logo1 {
     width: 140px;
+}
 
+
+.logo1:hover {
+    transform: scale(2);
+    transition: 2s;
 }
 
 .lista-nav {
