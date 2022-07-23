@@ -1,8 +1,8 @@
 /* Detalle de CSS de Header */
 
 header {
-    background-color: #fab81eab;
-    border-radius: 15px;
+background-image: linear-gradient(rgba(241, 179, 35, 0.664), rgba(188, 103, 225, 0.649));    
+border-radius: 15px;
 }
 
 .encabezado {
@@ -14,7 +14,12 @@ header {
 
 .logo1 {
     width: 140px;
+}
 
+
+.logo1:hover {
+    transform: scale(2);
+    transition: 2s;
 }
 
 .lista-nav {
@@ -34,6 +39,12 @@ header {
     padding: 10px;
     font-family: Verdana;
     font-weight: 300px;
+}
+
+.lista-nav a:hover {
+    color:rgb(29, 126, 237);
+    transform: scale(1.1);
+    transition: 2s;
 }
 
 /*////////////////////////////////////////////////////////////////////////*/
@@ -470,7 +481,7 @@ font-size: 20px;
     "producto1 texto1"
     "texto2 producto2"
     "footer footer";
-    background-color: #f2f2f2;
+    background-image: (To left, red, yellow);;
 }
 
 .carrusel { 
@@ -487,6 +498,11 @@ font-size: 20px;
     align-items: center;
 }
 
+.envios:hover { 
+    background-color: #3383dfad;
+    transition: 3s;
+}
+
 .pagos { 
     grid-area: pagos; 
     background-color: aliceblue;
@@ -494,7 +510,11 @@ font-size: 20px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
 
+.pagos:hover { 
+    background-color: #41df33ad;
+    transition: 3s;
 }
 
 .producto1 { 
@@ -611,7 +631,7 @@ font-size: 20px;
     }
     
     .encabezado { 
-        grid-area: encabezado; 
+        grid-area: encabezado;
     }
     
     .footer { 
@@ -632,6 +652,11 @@ font-size: 20px;
         border-radius: 3px;
         margin: 5px;
     }
+
+    .portada2:hover {
+        transform: scale(2,1);
+    }
+
     .lista-nav a {
         margin-right: 10px;
         padding: 5px;
